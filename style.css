@@ -1,0 +1,58 @@
+body {
+    font-family: monospace;
+}
+
+#topbar {
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 1.5em;
+    padding-top: .5em;
+    padding-left: .5em;
+    color: white;
+    background: black;
+    position: fixed;
+    z-index: 999;
+}
+
+#main {
+    margin: auto;
+    margin-top: 2em;
+    width: 90em;
+}
+
+#sidebar {
+    width: 25%;
+    display: table-cell;
+}
+
+.story {
+    border: 1px solid;
+    padding: .5em;
+    border-radius: 8px;
+    margin: .25em;
+}
+
+.storyActive {
+    border: 3px solid;
+    padding: .5em;
+    border-radius: 8px;
+    margin: .25em;
+}
+
+.story:hover {
+    cursor: pointer;
+}
+
+#comments {
+    width: 75%;
+    position: relative;
+    display: table-cell;
+}
+
+.comment {
+    border: 1px solid;
+    border-radius: 8px;
+    padding: .5em;
+    margin: .5em;
+}

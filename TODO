@@ -1,0 +1,4 @@
+-- there's a bug when HN job stories come up that don't contain a comments link
+   -- causes that story to show up with a comment link on the front page
+   -- also causes the next 1 or 2 stories to be skipped
+
