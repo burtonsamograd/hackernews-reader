@@ -70,7 +70,6 @@ var server = app.listen(8080, function () {
                                     story.comments = text;
                                     story.commentsLink = href;
                                     stories.push(story);
-                                    console.log(story);
                                     textIndex = -1;
                                 } else {
                                     // for those HN job stories
